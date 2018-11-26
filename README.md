@@ -2,7 +2,7 @@
 
 ## Usage
   1. Codes and Messages
-      ```
+      ```javascript
         const {codes} = require('brightlab-shared');
         // for `xyx` service, 
         // const x = codes.xyzSvcCodes;  // codes.EquipmentSvcCodes
@@ -11,7 +11,7 @@
         // x.statusCode // code
       ```
   2. Access Utils
-      ```
+      ```javascript
         const {utils} = require('brightlab-shared')
         const {err, data} = await utils.execAsync(AsyncFunc())
         if (err) {
@@ -22,7 +22,7 @@
       ```
 
   3. Logger
-      ```
+      ```javascript
         const logger = require('brightlab-shared').logger({
             logLevel: 'warn', // default debug
             filename: 'complete path', // default appRoot/log/[time].access.log 
