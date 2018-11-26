@@ -1,3 +1,9 @@
+const codes = require('./codes');
+const utils = require('./utils');
+const logger = require('./logger');
+
 module.exports = {
-    Hello: (name) => console.log("Hello", name)  
-}
+  utils,
+  codes,
+  logger,
+};
