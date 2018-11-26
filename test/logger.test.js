@@ -1,4 +1,4 @@
-const logger = require('../logger')({ logLevel: 'debug', logRotateDuration: '10s' });
+const logger = require('../index').logger({ logLevel: 'debug', logRotateDuration: '10s' });
 
 
 let count = 30;
